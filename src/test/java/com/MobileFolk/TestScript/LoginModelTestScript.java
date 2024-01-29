@@ -20,6 +20,7 @@ public class LoginModelTestScript extends TestBase {
     public void createDriver(@Optional("chrome") String browser) {
         WebDriver webDriver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(webDriver);
+        webDriver.manage().window().maximize();
         loginPage = new LoginPage(DriverManager.getDriver());
         loginPage.goUrl();
         loginPage.goToLogin();

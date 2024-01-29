@@ -289,3 +289,332 @@ java.net.SocketException: Connection reset
 [INFO ] 29-01-2024 11:24:28 [main] [Log] - 
 TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
 ---------------------------------------------------------------
+[INFO ] 29-01-2024 16:13:37 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:13:38 [main] [Log] - TestBase: beforeSuite
+[INFO ] 29-01-2024 16:13:39 [main] [WebDriverManager] - Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+[INFO ] 29-01-2024 16:13:39 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.85/chromedriver
+[INFO ] 29-01-2024 16:13:47 [main] [Log] - Actual URL: https://demo.nopcommerce.com/
+[INFO ] 29-01-2024 16:13:47 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 29-01-2024 16:13:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[text()='Welcome, Please Sign In!'] : visible
+[INFO ] 29-01-2024 16:13:47 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 29-01-2024 16:13:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:13:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:13:52 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Please enter your email'] : visible
+[INFO ] 29-01-2024 16:13:52 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:13:53 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 29-01-2024 16:13:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:13:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:13:53 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Wrong email'] : visible
+[INFO ] 29-01-2024 16:13:53 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:13:54 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_03
+[INFO ] 29-01-2024 16:13:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:13:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:13:54 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='Login was unsuccessful. Please correct the errors and try again.'] : visible
+[INFO ] 29-01-2024 16:13:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()='No customer account found'] : visible
+[INFO ] 29-01-2024 16:13:55 [main] [Log] - 
+TestListener: COMPLETED TC: TC_03 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:13:55 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_04
+[INFO ] 29-01-2024 16:13:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:13:55 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:13:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='Login was unsuccessful. Please correct the errors and try again.'] : visible
+[INFO ] 29-01-2024 16:13:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()='The credentials provided are incorrect'] : visible
+[INFO ] 29-01-2024 16:13:56 [main] [Log] - 
+TestListener: COMPLETED TC: TC_04 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:13:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_05
+[INFO ] 29-01-2024 16:13:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:13:56 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:13:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //div[text()='Login was unsuccessful. Please correct the errors and try again.'] : visible
+[INFO ] 29-01-2024 16:13:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //li[text()='The credentials provided are incorrect'] : visible
+[INFO ] 29-01-2024 16:13:57 [main] [Log] - 
+TestListener: COMPLETED TC: TC_05 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:13:57 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_06
+[INFO ] 29-01-2024 16:13:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:13:57 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:13:58 [main] [Log] - 
+TestListener: COMPLETED TC: TC_06 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:13:58 [main] [Log] - TestBase: Close Driver 
+[WARN ] 29-01-2024 16:13:58 [AsyncHttpClient-1-4] [WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[INFO ] 29-01-2024 16:13:59 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:15:15 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:15:16 [main] [Log] - TestBase: beforeSuite
+[INFO ] 29-01-2024 16:15:16 [main] [WebDriverManager] - Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+[INFO ] 29-01-2024 16:15:16 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.85/chromedriver
+[INFO ] 29-01-2024 16:15:22 [main] [Log] - Actual URL: https://demo.nopcommerce.com/
+[INFO ] 29-01-2024 16:15:22 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 29-01-2024 16:15:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[text()='Welcome, Please Sign In!'] : visible
+[INFO ] 29-01-2024 16:15:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 29-01-2024 16:15:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:15:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:15:28 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Please enter your email'] : visible
+[INFO ] 29-01-2024 16:15:28 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:15:29 [main] [Log] - TestBase: Close Driver 
+[WARN ] 29-01-2024 16:15:29 [AsyncHttpClient-1-4] [WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[INFO ] 29-01-2024 16:15:29 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:16:16 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:16:17 [main] [Log] - TestBase: beforeSuite
+[INFO ] 29-01-2024 16:16:17 [main] [WebDriverManager] - Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+[INFO ] 29-01-2024 16:16:17 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.85/chromedriver
+[INFO ] 29-01-2024 16:16:23 [main] [Log] - Actual URL: https://demo.nopcommerce.com/
+[INFO ] 29-01-2024 16:16:23 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 29-01-2024 16:16:24 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[text()='Welcome, Please Sign In!'] : visible
+[INFO ] 29-01-2024 16:16:24 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 29-01-2024 16:16:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:16:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:16:29 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Please enter your email'] : visible
+[INFO ] 29-01-2024 16:16:29 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:16:30 [main] [Log] - TestBase: Close Driver 
+[WARN ] 29-01-2024 16:16:30 [AsyncHttpClient-1-4] [WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[INFO ] 29-01-2024 16:16:30 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:18:15 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:18:15 [main] [Log] - TestBase: beforeSuite
+[INFO ] 29-01-2024 16:18:16 [main] [WebDriverManager] - Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+[INFO ] 29-01-2024 16:18:16 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.85/chromedriver
+[ERROR] 29-01-2024 16:18:17 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: Chrome failed to start: exited normally.
+  (session not created: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.) 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --headless, --disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors, --disable-gpu, --virtual-time-budget=1000, --window-size=1920,1080], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--start-maximized, --headless, --disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors, --disable-gpu, --virtual-time-budget=1000, --window-size=1920,1080], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 29-01-2024 16:18:17 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 29-01-2024 16:18:17 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:18:17 [main] [Log] - TestBase: Close Driver 
+[INFO ] 29-01-2024 16:18:17 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:21:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:21:36 [main] [Log] - TestBase: beforeSuite
+[INFO ] 29-01-2024 16:21:36 [main] [WebDriverManager] - Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+[INFO ] 29-01-2024 16:21:36 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.85/chromedriver
+[INFO ] 29-01-2024 16:21:43 [main] [Log] - Actual URL: https://demo.nopcommerce.com/
+[INFO ] 29-01-2024 16:21:43 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 29-01-2024 16:21:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[text()='Welcome, Please Sign In!'] : visible
+[INFO ] 29-01-2024 16:21:44 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 29-01-2024 16:21:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:21:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:21:49 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Please enter your email'] : visible
+[INFO ] 29-01-2024 16:21:49 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:21:49 [main] [Log] - TestBase: Close Driver 
+[WARN ] 29-01-2024 16:21:49 [AsyncHttpClient-1-4] [WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[INFO ] 29-01-2024 16:21:50 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:23:30 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:23:31 [main] [Log] - TestBase: beforeSuite
+[INFO ] 29-01-2024 16:23:31 [main] [WebDriverManager] - Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+[INFO ] 29-01-2024 16:23:31 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.85/chromedriver
+[INFO ] 29-01-2024 16:23:38 [main] [Log] - Actual URL: https://demo.nopcommerce.com/
+[INFO ] 29-01-2024 16:23:38 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 29-01-2024 16:23:38 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[text()='Welcome, Please Sign In!'] : visible
+[INFO ] 29-01-2024 16:23:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 29-01-2024 16:23:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:23:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:23:44 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Please enter your email'] : visible
+[INFO ] 29-01-2024 16:23:44 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:23:44 [main] [Log] - TestBase: Close Driver 
+[WARN ] 29-01-2024 16:23:44 [AsyncHttpClient-1-4] [WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[INFO ] 29-01-2024 16:23:44 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:25:10 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:25:11 [main] [Log] - TestBase: beforeSuite
+[INFO ] 29-01-2024 16:25:11 [main] [WebDriverManager] - Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+[INFO ] 29-01-2024 16:25:11 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.85/chromedriver
+[INFO ] 29-01-2024 16:25:18 [main] [Log] - Actual URL: https://demo.nopcommerce.com/
+[INFO ] 29-01-2024 16:25:18 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 29-01-2024 16:25:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[text()='Welcome, Please Sign In!'] : visible
+[INFO ] 29-01-2024 16:25:18 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 29-01-2024 16:25:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:25:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:25:23 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Please enter your email'] : visible
+[INFO ] 29-01-2024 16:25:23 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:25:24 [main] [Log] - TestBase: Close Driver 
+[INFO ] 29-01-2024 16:25:24 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:27:34 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:27:34 [main] [Log] - TestBase: beforeSuite
+[INFO ] 29-01-2024 16:27:35 [main] [WebDriverManager] - Using chromedriver 121.0.6167.85 (resolved driver for Chrome 121)
+[INFO ] 29-01-2024 16:27:35 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.85/chromedriver
+[INFO ] 29-01-2024 16:27:42 [main] [Log] - Actual URL: https://demo.nopcommerce.com/
+[INFO ] 29-01-2024 16:27:42 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 29-01-2024 16:27:42 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[text()='Welcome, Please Sign In!'] : visible
+[INFO ] 29-01-2024 16:27:42 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 29-01-2024 16:27:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 29-01-2024 16:27:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 29-01-2024 16:27:47 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Please enter your email'] : visible
+[INFO ] 29-01-2024 16:27:47 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 29-01-2024 16:27:48 [main] [Log] - TestBase: Close Driver 
+[WARN ] 29-01-2024 16:27:48 [AsyncHttpClient-1-4] [WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[INFO ] 29-01-2024 16:27:48 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

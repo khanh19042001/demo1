@@ -21,6 +21,7 @@ public class RegisterModelTestScript extends TestBase {
     public void createDriver(@Optional("chrome") String browser) {
         WebDriver webDriver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(webDriver);
+        webDriver.manage().window().maximize();
         register = new RegisterPage(DriverManager.getDriver());
         register.goUrl();
         register.goToRegister();

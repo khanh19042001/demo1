@@ -39,11 +39,11 @@ public enum BrowserFactory {
         @Override
         public ChromeOptions getOptions() {
             ChromeOptions chromeOptions = new ChromeOptions();
-            chromeOptions.addArguments(START_MAXIMIZED);
+//            chromeOptions.addArguments(START_MAXIMIZED);
             chromeOptions.addArguments("--headless");
             chromeOptions.addArguments("--disable-infobars");
             chromeOptions.addArguments("--disable-notifications");
-            chromeOptions.addArguments("--window-size=1780,1500");
+//            chromeOptions.addArguments("--window-size=1780,1500");
             chromeOptions.addArguments("--disable-dev-shm-usage");
             chromeOptions.addArguments("--remote-allow-origins=*");
             chromeOptions.addArguments("--illegal-access=*");
