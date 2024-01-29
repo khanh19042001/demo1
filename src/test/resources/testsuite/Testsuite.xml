@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Regression Tests">
+    <listeners>
+        <!--        <listener class-name="com.common.AnnotationTransformer"/>-->
+        <listener class-name="com.MobileFolk.report.EmailableReporter"/>
+        <listener class-name="com.MobileFolk.report.EmailableReporter2"/>
+<!--        <listener class-name="com.MobileFolk.JiraConfig.TestJiraListener"/>-->
+<!--        <listener class-name="com.MobileFolk.EmailConfig.SendEmail"/>-->
+    </listeners>
+    <test name="Demo" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.MobileFolk.TestScript.LoginModelTestScript"/>
+        </classes>
+    </test>
+</suite>

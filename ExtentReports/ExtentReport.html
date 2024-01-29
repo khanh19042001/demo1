@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Automation Report Test version 1.0</title>
+<link rel="apple-touch-icon" href="./css/Logo_MISA.jpg">
+<link rel="shortcut icon" href="./css/Logo_MISA.jpg">
+<link rel="stylesheet" href="spark/spark-style.css">
+<link rel="stylesheet" href="spark/font-awesome.min.css">
+<script src="spark/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div  class="nav-logo" style="padding:0 0">
+<a href="#">
+<div class="logo" style="background-image: url('./css/Logo_MISA.jpg')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Automation Report Test version 1.0</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 29, 2024 11:24:03 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('device-view')">
+<a id="nav-device" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tablet"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 29, 2024 11:24:03 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 29, 2024 11:24:28 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>6</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>6</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='52%'><b>26</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>24</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"<i class="fa fa-chrome" aria-hidden="true"></i> : TC_01<br/> <p style='font-size: 0.75em'>Khanh - Login with empty data</p>":5.205,"<i class="fa fa-chrome" aria-hidden="true"></i> : TC_02<br/> <p style='font-size: 0.75em'>Khanh - Login with invalid data</p>":0.582,"<i class="fa fa-chrome" aria-hidden="true"></i> : TC_03<br/> <p style='font-size: 0.75em'>Khanh - Login with email don't register</p>":0.902,"<i class="fa fa-chrome" aria-hidden="true"></i> : TC_04<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password empty</p>":0.897,"<i class="fa fa-chrome" aria-hidden="true"></i> : TC_05<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password wrong</p>":0.896,"<i class="fa fa-chrome" aria-hidden="true"></i> : TC_06<br/> <p style='font-size: 0.75em'>Khanh - Login successfully</p>":6.184
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>Khanh</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>LoginModelTestScript</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 device-container">
+<div class="card">
+<div class="card-header"><p>Device</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>CHROME</td>
+<td>6</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Framework Name</td>
+<td>Automation Report</td>
+</tr>
+<tr>
+<td>Author</td>
+<td>KHANH</td>
+</tr>
+<tr>
+<td>Testing Version</td>
+<td>1.0</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 6,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 26,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 24
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Khanh</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">LoginModelTestScript</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tablet"></i></a>
+<ul id="device-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">CHROME</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="3"
+          author="Khanh"
+          tag="LoginModelTestScript"
+          device="CHROME">
+          <div class="test-detail">
+            <p class="name"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_01<br/> <p style='font-size: 0.75em'>Khanh - Login with empty data</p></p>
+            <p class="text-sm">
+              <span>11:24:11 AM</span> / <span>00:00:05:205</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_01<br/> <p style='font-size: 0.75em'>Khanh - Login with empty data</p></h5>
+<span class='badge badge-success'>01.29.2024 11:24:11 AM</span>
+<span class='badge badge-danger'>01.29.2024 11:24:16 AM</span>
+<span class='badge badge-default'>00:00:05:205</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Khanh</span>
+<span class="badge badge-pill badge-default">LoginModelTestScript</span>
+<span class="badge badge-pill badge-default">CHROME</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:11 AM</td>
+        <td>
+          <b><i class='fa fa-apple' ></i> Mac OS X</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:16 AM</td>
+        <td>
+          Insert text [<b></b>] to [Email] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Email'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:16 AM</td>
+        <td>
+          Check data input  - Actual:  ; Expected:  -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:16 AM</td>
+        <td>
+          Insert text [<b></b>] to [Password] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Password'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:16 AM</td>
+        <td>
+          Check data input  - Actual:  ; Expected:  -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:16 AM</td>
+        <td>
+          Clicked [Click Submit button]  <br/> <span style='font-size: 0.75em'>(Element's locator:  //button[text()='Log in'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:16 AM</td>
+        <td>
+          Verify error message display -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:16 AM</td>
+        <td>
+          Test case: TC_01 - PASS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="Khanh"
+          tag="LoginModelTestScript"
+          device="CHROME">
+          <div class="test-detail">
+            <p class="name"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_02<br/> <p style='font-size: 0.75em'>Khanh - Login with invalid data</p></p>
+            <p class="text-sm">
+              <span>11:24:17 AM</span> / <span>00:00:00:582</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_02<br/> <p style='font-size: 0.75em'>Khanh - Login with invalid data</p></h5>
+<span class='badge badge-success'>01.29.2024 11:24:17 AM</span>
+<span class='badge badge-danger'>01.29.2024 11:24:18 AM</span>
+<span class='badge badge-default'>00:00:00:582</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Khanh</span>
+<span class="badge badge-pill badge-default">LoginModelTestScript</span>
+<span class="badge badge-pill badge-default">CHROME</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:17 AM</td>
+        <td>
+          <b><i class='fa fa-apple' ></i> Mac OS X</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:17 AM</td>
+        <td>
+          Insert text [<b>abc</b>] to [Email] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Email'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:17 AM</td>
+        <td>
+          Check data input  - Actual: abc ; Expected: abc -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:17 AM</td>
+        <td>
+          Insert text [<b>1234</b>] to [Password] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Password'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:17 AM</td>
+        <td>
+          Check data input  - Actual: 1234 ; Expected: 1234 -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:17 AM</td>
+        <td>
+          Clicked [Click Submit button]  <br/> <span style='font-size: 0.75em'>(Element's locator:  //button[text()='Log in'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:18 AM</td>
+        <td>
+          Verify error message display -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:18 AM</td>
+        <td>
+          Test case: TC_02 - PASS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="Khanh"
+          tag="LoginModelTestScript"
+          device="CHROME">
+          <div class="test-detail">
+            <p class="name"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_03<br/> <p style='font-size: 0.75em'>Khanh - Login with email don't register</p></p>
+            <p class="text-sm">
+              <span>11:24:18 AM</span> / <span>00:00:00:902</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_03<br/> <p style='font-size: 0.75em'>Khanh - Login with email don't register</p></h5>
+<span class='badge badge-success'>01.29.2024 11:24:18 AM</span>
+<span class='badge badge-danger'>01.29.2024 11:24:19 AM</span>
+<span class='badge badge-default'>00:00:00:902</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Khanh</span>
+<span class="badge badge-pill badge-default">LoginModelTestScript</span>
+<span class="badge badge-pill badge-default">CHROME</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:18 AM</td>
+        <td>
+          <b><i class='fa fa-apple' ></i> Mac OS X</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:18 AM</td>
+        <td>
+          Insert text [<b>123@gmail.com</b>] to [Email] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Email'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:18 AM</td>
+        <td>
+          Check data input  - Actual: 123@gmail.com ; Expected: 123@gmail.com -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:18 AM</td>
+        <td>
+          Insert text [<b>11111</b>] to [Password] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Password'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:18 AM</td>
+        <td>
+          Check data input  - Actual: 11111 ; Expected: 11111 -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          Clicked [Click Submit button]  <br/> <span style='font-size: 0.75em'>(Element's locator:  //button[text()='Log in'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          Verify error message display -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          Verify error message display -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          Test case: TC_03 - PASS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="Khanh"
+          tag="LoginModelTestScript"
+          device="CHROME">
+          <div class="test-detail">
+            <p class="name"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_04<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password empty</p></p>
+            <p class="text-sm">
+              <span>11:24:19 AM</span> / <span>00:00:00:897</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_04<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password empty</p></h5>
+<span class='badge badge-success'>01.29.2024 11:24:19 AM</span>
+<span class='badge badge-danger'>01.29.2024 11:24:20 AM</span>
+<span class='badge badge-default'>00:00:00:897</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Khanh</span>
+<span class="badge badge-pill badge-default">LoginModelTestScript</span>
+<span class="badge badge-pill badge-default">CHROME</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          <b><i class='fa fa-apple' ></i> Mac OS X</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          Insert text [<b>abc@gmail.com</b>] to [Email] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Email'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          Check data input  - Actual: abc@gmail.com ; Expected: abc@gmail.com -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          Insert text [<b></b>] to [Password] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Password'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:19 AM</td>
+        <td>
+          Check data input  - Actual:  ; Expected:  -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:20 AM</td>
+        <td>
+          Clicked [Click Submit button]  <br/> <span style='font-size: 0.75em'>(Element's locator:  //button[text()='Log in'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:20 AM</td>
+        <td>
+          Verify error message display -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:20 AM</td>
+        <td>
+          Verify error message display -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:20 AM</td>
+        <td>
+          Test case: TC_04 - PASS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="Khanh"
+          tag="LoginModelTestScript"
+          device="CHROME">
+          <div class="test-detail">
+            <p class="name"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_05<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password wrong</p></p>
+            <p class="text-sm">
+              <span>11:24:20 AM</span> / <span>00:00:00:896</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_05<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password wrong</p></h5>
+<span class='badge badge-success'>01.29.2024 11:24:20 AM</span>
+<span class='badge badge-danger'>01.29.2024 11:24:21 AM</span>
+<span class='badge badge-default'>00:00:00:896</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Khanh</span>
+<span class="badge badge-pill badge-default">LoginModelTestScript</span>
+<span class="badge badge-pill badge-default">CHROME</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:20 AM</td>
+        <td>
+          <b><i class='fa fa-apple' ></i> Mac OS X</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:21 AM</td>
+        <td>
+          Insert text [<b>abc@gmail.com</b>] to [Email] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Email'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:21 AM</td>
+        <td>
+          Check data input  - Actual: abc@gmail.com ; Expected: abc@gmail.com -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:21 AM</td>
+        <td>
+          Insert text [<b>123</b>] to [Password] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Password'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:21 AM</td>
+        <td>
+          Check data input  - Actual: 123 ; Expected: 123 -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:21 AM</td>
+        <td>
+          Clicked [Click Submit button]  <br/> <span style='font-size: 0.75em'>(Element's locator:  //button[text()='Log in'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:21 AM</td>
+        <td>
+          Verify error message display -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:21 AM</td>
+        <td>
+          Verify error message display -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:21 AM</td>
+        <td>
+          Test case: TC_05 - PASS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author="Khanh"
+          tag="LoginModelTestScript"
+          device="CHROME">
+          <div class="test-detail">
+            <p class="name"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_06<br/> <p style='font-size: 0.75em'>Khanh - Login successfully</p></p>
+            <p class="text-sm">
+              <span>11:24:22 AM</span> / <span>00:00:06:184</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass"><i class="fa fa-chrome" aria-hidden="true"></i> : TC_06<br/> <p style='font-size: 0.75em'>Khanh - Login successfully</p></h5>
+<span class='badge badge-success'>01.29.2024 11:24:22 AM</span>
+<span class='badge badge-danger'>01.29.2024 11:24:28 AM</span>
+<span class='badge badge-default'>00:00:06:184</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">Khanh</span>
+<span class="badge badge-pill badge-default">LoginModelTestScript</span>
+<span class="badge badge-pill badge-default">CHROME</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:22 AM</td>
+        <td>
+          <b><i class='fa fa-apple' ></i> Mac OS X</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:27 AM</td>
+        <td>
+          Insert text [<b>abc@gmail.com</b>] to [Email] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Email'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:27 AM</td>
+        <td>
+          Check data input  - Actual: abc@gmail.com ; Expected: abc@gmail.com -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:27 AM</td>
+        <td>
+          Insert text [<b>123456</b>] to [Password] <br/> <span style='font-size: 0.75em'>(Element's locator:  //input[@name='Password'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:27 AM</td>
+        <td>
+          Check data input  - Actual: 123456 ; Expected: 123456 -> VERIFY : <b>PASS</b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>11:24:28 AM</td>
+        <td>
+          Clicked [Click Submit button]  <br/> <span style='font-size: 0.75em'>(Element's locator:  //button[text()='Log in'])</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>11:24:28 AM</td>
+        <td>
+          Test case: TC_06 - PASS
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">LoginModelTestScript</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>LoginModelTestScript</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_01<br/> <p style='font-size: 0.75em'>Khanh - Login with empty data</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_02<br/> <p style='font-size: 0.75em'>Khanh - Login with invalid data</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_03<br/> <p style='font-size: 0.75em'>Khanh - Login with email don't register</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_04<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password empty</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_05<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password wrong</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_06<br/> <p style='font-size: 0.75em'>Khanh - Login successfully</p></a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view device-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Device</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">CHROME</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>CHROME</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_01<br/> <p style='font-size: 0.75em'>Khanh - Login with empty data</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_02<br/> <p style='font-size: 0.75em'>Khanh - Login with invalid data</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_03<br/> <p style='font-size: 0.75em'>Khanh - Login with email don't register</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_04<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password empty</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_05<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password wrong</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_06<br/> <p style='font-size: 0.75em'>Khanh - Login successfully</p></a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+</span>
+<p class="name">Khanh</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Khanh</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:11 AM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_01<br/> <p style='font-size: 0.75em'>Khanh - Login with empty data</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:17 AM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_02<br/> <p style='font-size: 0.75em'>Khanh - Login with invalid data</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:18 AM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_03<br/> <p style='font-size: 0.75em'>Khanh - Login with email don't register</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:19 AM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_04<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password empty</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:20 AM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_05<br/> <p style='font-size: 0.75em'>Khanh - Login with email register and password wrong</p></a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>11:24:22 AM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'><i class="fa fa-chrome" aria-hidden="true"></i> : TC_06<br/> <p style='font-size: 0.75em'>Khanh - Login successfully</p></a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="spark/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+<style>.test-wrapper .test-content .test-content-detail .detail-head .info{height: unset;}</style></html>

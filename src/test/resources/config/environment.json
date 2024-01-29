@@ -1,0 +1,68 @@
+{
+  "key_env": [],
+  "env": {
+    "local": {
+      "app_url": "https://smecloud.misa.local",
+      "amis_url": "https://apps.amispdc.misa.local",
+      "company": "Công Ty TNHH Tuấn Linh",
+      "account": "pbngoc@software.misa.com.vn",
+      "password": "123123@Abc",
+      "db": {
+        "main": {
+          "common_db": "KETOAN_AUTO_COMMON",
+          "tax_db": "CONVERT_THUẾ TT80 (PP KHAU TRU)_2022_2022_11_01_113622",
+          "inventory_db": "KETOAN_AUTO_KHO",
+          "invoice_db": "KETOAN_AUTO_HOADON"
+        },
+        "retry": {
+          "common_db": "KETOAN_AUTO_RETRY",
+          "tax_db": "CONVERT_THUẾ TT80 (PP KHAU TRU)_2022_2022_11_01_113622",
+          "inventory_db": "KETOAN_AUTO_KHO",
+          "invoice_db": "KETOAN_AUTO_HOADON"
+        }
+      }
+    },
+    "test": {
+      "app_url": "",
+      "amis_url": "",
+      "account": "",
+      "company": "",
+      "password": "",
+      "db": {
+        "main": {
+          "common_db": " ",
+          "tax_db": " ",
+          "inventory_db": "",
+          "invoice_db": ""
+        },
+        "retry": {
+          "common_db": " ",
+          "tax_db": " ",
+          "inventory_db": "",
+          "invoice_db": ""
+        }
+      }
+    },
+    "prod": {
+      "app_url": "https://actapp.misa.vn",
+      "amis_url": "https://amisapp.misa.vn",
+      "company": "(SMECloud) Công ty CP Thiên Nhiên _MISA test",
+      "account": "ngocpbk18.tbc@gmail.com",
+      "password": "123123@Abc",
+      "db": {
+        "main": {
+          "common_db": "KETOAN_AUTO_COMMON",
+          "tax_db": "KETOAN_AUTO_THUE",
+          "inventory_db": "KETOAN_AUTO_KHO",
+          "invoice_db": "KETOAN_AUTO_HOADON"
+        },
+        "retry": {
+          "common_db": "KETOAN_AUTO_COMMON_RT",
+          "tax_db": "KETOAN_AUTO_THUE",
+          "inventory_db": "KETOAN_AUTO_KHO_RT",
+          "invoice_db": "KETOAN_AUTO_HOADON_RT"
+        }
+      }
+    }
+  }
+}
