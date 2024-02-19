@@ -618,3 +618,747 @@ java.net.SocketException: Connection reset
 [INFO ] 29-01-2024 16:27:48 [main] [Log] - 
 TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
 ---------------------------------------------------------------
+[INFO ] 19-02-2024 11:07:24 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:07:24 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 11:07:24 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 11:07:24 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 11:07:27 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 11:07:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 11:07:27 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:07:27 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 11:07:27 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 11:07:27 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:17:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:17:57 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 11:17:57 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 11:17:57 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 11:17:59 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 11:18:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 11:18:00 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:18:00 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 11:18:00 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 11:18:00 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:19:18 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:19:18 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 11:19:18 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 11:19:18 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 11:19:19 [main] [Log] - java.lang.NoSuchMethodError: 'org.openqa.selenium.manager.SeleniumManagerOutput$Result org.openqa.selenium.remote.service.DriverFinder.getPath(org.openqa.selenium.remote.service.DriverService, org.openqa.selenium.Capabilities)'
+[INFO ] 19-02-2024 11:19:19 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 11:19:19 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:19:19 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 11:19:19 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 11:19:19 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:23:42 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:23:42 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 11:23:43 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 11:23:43 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 11:23:45 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 11:23:45 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 11:23:45 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:23:45 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 11:23:46 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 11:23:46 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:28:36 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:28:36 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 11:28:37 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 11:28:37 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 11:28:39 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 11:28:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 11:28:39 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:28:39 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 11:28:39 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 11:28:39 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:31:49 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:31:49 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 11:31:50 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 11:31:50 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 11:31:50 [main] [Log] - java.lang.NoSuchMethodError: 'java.io.OutputStream org.openqa.selenium.chrome.ChromeDriverService$Builder.getLogOutput(java.lang.String)'
+[INFO ] 19-02-2024 11:31:50 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 11:31:50 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:31:50 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 11:31:50 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 11:31:50 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:43:04 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:43:05 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 11:43:05 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 11:43:05 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 11:43:08 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 11:43:08 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 11:43:08 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:43:08 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 11:43:08 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 11:43:08 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:50:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:50:23 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 11:50:24 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 11:50:24 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 11:50:24 [main] [Log] - java.lang.NoSuchMethodError: 'org.openqa.selenium.manager.SeleniumManagerOutput$Result org.openqa.selenium.remote.service.DriverFinder.getPath(org.openqa.selenium.remote.service.DriverService, org.openqa.selenium.Capabilities)'
+[INFO ] 19-02-2024 11:50:24 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 11:50:24 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 11:50:24 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 11:50:24 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 11:50:24 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:17:33 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:17:33 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 12:17:33 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 12:17:33 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 12:17:36 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+[INFO ] 19-02-2024 12:17:36 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 12:17:41 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:17:41 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 12:17:41 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 12:17:41 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:19:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:19:14 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 12:19:14 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 12:19:14 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 12:19:17 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+[INFO ] 19-02-2024 12:19:17 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 19-02-2024 12:19:17 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:19:17 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 12:19:17 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 12:19:17 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:26:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:26:35 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 12:26:36 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 12:26:36 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 12:26:36 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 12:26:36 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_02
+[INFO ] 19-02-2024 12:26:36 [main] [Log] - 
+TestListener: COMPLETED TC: TC_02 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:26:36 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 12:26:36 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 12:26:36 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:27:37 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:27:38 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 12:27:38 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 12:27:38 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 12:27:41 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+[INFO ] 19-02-2024 12:27:41 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 12:27:41 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:27:41 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 12:27:41 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 12:27:41 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:29:14 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:29:14 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 12:29:15 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 12:29:15 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 12:29:15 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 12:29:15 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 12:29:15 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:29:15 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 12:29:15 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 12:29:15 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:30:46 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:30:46 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 12:30:46 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 12:30:46 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 12:30:49 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--remote-allow-origins=*], extensions: []}}}]
+[INFO ] 19-02-2024 12:30:49 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 12:30:49 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:30:49 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 12:30:49 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 12:30:49 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:32:06 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:32:07 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 12:32:07 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 12:32:07 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 12:32:07 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 12:32:07 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 12:32:07 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 12:32:07 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 12:32:07 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 12:32:07 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:21:05 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:21:05 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:21:06 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:21:06 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:21:06 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:21:06 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:21:06 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:21:06 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:21:06 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:21:06 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:33:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:33:27 [main] [Log] - TestBase: beforeSuite
+[ERROR] 19-02-2024 14:33:27 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:33:27 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:33:27 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:33:27 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:33:27 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:33:27 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:33:59 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:33:59 [main] [Log] - TestBase: beforeSuite
+[ERROR] 19-02-2024 14:33:59 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:34:00 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:34:00 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:34:00 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:34:00 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:34:00 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:34:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:34:56 [main] [Log] - TestBase: beforeSuite
+[ERROR] 19-02-2024 14:34:56 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:34:56 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:34:56 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:34:56 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:34:56 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:34:56 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:37:55 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:37:55 [main] [Log] - TestBase: beforeSuite
+[ERROR] 19-02-2024 14:37:55 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:37:55 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:37:55 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:37:55 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:37:55 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:37:55 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:38:28 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:38:28 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:38:28 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:38:29 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:38:29 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:38:29 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:38:29 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:38:29 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:38:29 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:38:29 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:39:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:39:36 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:39:36 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:39:36 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:39:36 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:39:36 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:39:36 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:39:36 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:39:36 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:39:36 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:45:37 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:45:37 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:45:38 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:45:38 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:45:38 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:45:38 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:45:38 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:45:38 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:45:38 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:45:38 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:46:07 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:46:07 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:46:07 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:46:07 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:46:07 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:46:08 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:46:08 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:46:08 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:46:08 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:46:08 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:46:34 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:46:35 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:46:35 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:46:35 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:46:35 [main] [Log] - java.lang.AbstractMethodError: Receiver class org.openqa.selenium.chrome.ChromeDriverService$Builder does not define or inherit an implementation of the resolved method 'abstract java.io.File findDefaultExecutable()' of abstract class org.openqa.selenium.remote.service.DriverService$Builder.
+[INFO ] 19-02-2024 14:46:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:46:35 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:46:35 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:46:35 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:46:35 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:47:20 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:47:20 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:47:21 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:47:21 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:47:23 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 14:47:23 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:47:23 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:47:23 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:47:23 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:47:23 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:49:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:49:13 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:49:14 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:49:14 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:49:16 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 14:49:17 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:49:17 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:49:17 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:49:17 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:49:17 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:52:45 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:52:46 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:52:46 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:52:46 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:52:54 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 14:52:54 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:52:54 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:52:54 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:52:54 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:52:54 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:53:35 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:53:35 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:53:36 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:53:36 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:53:38 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 14:53:39 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:53:44 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:53:44 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:53:44 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:53:44 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:58:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:58:13 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 14:58:14 [main] [Downloader] - Downloading https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.184/mac-x64/chromedriver-mac-x64.zip
+[INFO ] 19-02-2024 14:58:16 [main] [Downloader] - Extracting driver from compressed file chromedriver-mac-x64.zip
+[INFO ] 19-02-2024 14:58:16 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.184/chromedriver
+[INFO ] 19-02-2024 14:58:16 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 14:58:16 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 14:58:24 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 14:58:24 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 14:58:24 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 14:58:24 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 14:58:24 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 14:58:24 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:00:34 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:00:34 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 15:00:35 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 15:00:35 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 15:00:37 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 15:00:37 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 15:00:37 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:00:37 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 15:00:37 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 15:00:37 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:02:12 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:02:13 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 15:02:13 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 15:02:13 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[INFO ] 19-02-2024 15:02:13 [main] [WebDriverManager] - Using chromedriver 114.0.5735.90 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 15:02:13 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/114.0.5735.90/chromedriver
+[ERROR] 19-02-2024 15:02:16 [main] [Log] - org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of ChromeDriver only supports Chrome version 114
+Current browser version is 121.0.6167.184 with binary path /Applications/Google Chrome.app/Contents/MacOS/Google Chrome 
+Host info: host: 'apples-MacBook-Pro.local', ip: '192.168.1.14'
+Build info: version: '4.8.3', revision: 'e5e76298c3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4.1', java.version: '17.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: chrome, goog:chromeOptions: {args: [--disable-infobars, --disable-notifications, --disable-dev-shm-usage, --remote-allow-origins=*, --illegal-access=*, --no-sandbox, --ignore-ssl-errors=yes, --ignore-certificate-errors], extensions: []}, goog:loggingPrefs: org.openqa.selenium.logging..., pageLoadStrategy: eager}}]
+[INFO ] 19-02-2024 15:02:21 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 15:02:21 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - SKIP 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:02:21 [main] [Log] - captureScreenshot: Create folder: /Users/apple/Desktop/demo1/ExportData/Images
+[INFO ] 19-02-2024 15:02:21 [main] [Log] - TestBase: Close Driver 
+[INFO ] 19-02-2024 15:02:21 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:04:01 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: TESTING FOR TEST SUITE: Default Suite
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:04:01 [main] [Log] - TestBase: beforeSuite
+[INFO ] 19-02-2024 15:04:03 [main] [WebDriverManager] - Using chromedriver 121.0.6167.184 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 15:04:03 [main] [Downloader] - Downloading https://storage.googleapis.com/chrome-for-testing-public/121.0.6167.184/mac-x64/chromedriver-mac-x64.zip
+[INFO ] 19-02-2024 15:04:05 [main] [Downloader] - Extracting driver from compressed file chromedriver-mac-x64.zip
+[INFO ] 19-02-2024 15:04:05 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.184/chromedriver
+[INFO ] 19-02-2024 15:04:05 [main] [WebDriverManager] - Using chromedriver 121.0.6167.184 (resolved driver for Chrome 121)
+[INFO ] 19-02-2024 15:04:05 [main] [WebDriverManager] - Exporting webdriver.chrome.driver as /Users/apple/.cache/selenium/chromedriver/mac64/121.0.6167.184/chromedriver
+[INFO ] 19-02-2024 15:04:12 [main] [Log] - Actual URL: https://demo.nopcommerce.com/
+[INFO ] 19-02-2024 15:04:12 [main] [Log] - waitForElementClickable: Element //a[text()='Log in'] : clickable
+[INFO ] 19-02-2024 15:04:13 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //h1[text()='Welcome, Please Sign In!'] : visible
+[INFO ] 19-02-2024 15:04:13 [main] [Log] - 
+---------------------------------------------------------------
+TestListener: START TC:  TC_01
+[INFO ] 19-02-2024 15:04:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Email'] : visible
+[INFO ] 19-02-2024 15:04:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //input[@name='Password'] : visible
+[INFO ] 19-02-2024 15:04:18 [main] [Log] - waitForElementVisibleWithBy: Element By.xpath: //label[text()='Email:']//following::span[text()='Please enter your email'] : visible
+[INFO ] 19-02-2024 15:04:18 [main] [Log] - 
+TestListener: COMPLETED TC: TC_01 - PASS 
+---------------------------------------------------------------
+[INFO ] 19-02-2024 15:04:18 [main] [Log] - TestBase: Close Driver 
+[WARN ] 19-02-2024 15:04:18 [AsyncHttpClient-1-4] [WebSocketHandler] - onError
+java.net.SocketException: Connection reset
+	at sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:426) ~[?:?]
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:256) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132) ~[netty-buffer-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:357) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[netty-transport-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[netty-common-4.1.90.Final.jar:4.1.90.Final]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[INFO ] 19-02-2024 15:04:19 [main] [Log] - 
+TestListener: FINISH TESTING FOR TEST SUITE: Default Suite 
+---------------------------------------------------------------

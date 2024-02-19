@@ -8,16 +8,21 @@ import com.MobileFolk.constants.CategoryType;
 import com.MobileFolk.driver.DriverManager;
 import com.MobileFolk.driver.TargetFactory;
 
+//import io.github.bonigarcia.wdm.WebDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ThreadGuard;
 import org.testng.annotations.*;
 
 public class LoginModelTestScript extends TestBase {
+//    static WebDriver driver;
     public LoginPage loginPage;
 
     @Parameters({"browser"})
     @BeforeClass(alwaysRun = true)
     public void createDriver(@Optional("chrome") String browser) {
+        WebDriverManager.chromedriver().clearDriverCache().setup();
         WebDriver webDriver = ThreadGuard.protect(new TargetFactory().createInstance(browser));
         DriverManager.setDriver(webDriver);
         webDriver.manage().window().maximize();

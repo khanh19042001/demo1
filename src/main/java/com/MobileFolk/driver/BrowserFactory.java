@@ -91,7 +91,6 @@ public enum BrowserFactory {
             edgeOptions.addArguments(START_MAXIMIZED);
             edgeOptions.setAcceptInsecureCerts(true);
             edgeOptions.setHeadless(Boolean.valueOf(FrameworkConst.HEADLESS));
-
             return edgeOptions;
         }
     },

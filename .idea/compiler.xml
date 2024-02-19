@@ -9,5 +9,8 @@
         <module name="next_khanh" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="selenium-project" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

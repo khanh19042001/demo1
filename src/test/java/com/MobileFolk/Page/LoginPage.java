@@ -2,9 +2,11 @@ package com.MobileFolk.Page;
 
 import com.MobileFolk.Common.BaseConst;
 import com.MobileFolk.Common.BasePage;
+import com.MobileFolk.constants.FailureHandling;
 import com.MobileFolk.constants.FrameworkConst;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.pagefactory.AjaxElementLocatorFactory;
 
@@ -102,7 +104,11 @@ public class LoginPage extends BasePage {
         verifyErrorMessage(BaseConst.DYNAMIC_DIV_TEXT, null, "Login was unsuccessful. Please correct the errors and try again.");
         verifyErrorMessage(BaseConst.DYNAMIC_LI_TEXT,null,"The credentials provided are incorrect");
     }
-
+    public void isEnableButton(String text) {
+        By xpath = getByXpathDynamic(BaseConst.DYNAMIC_BUTTON_TEXT_FORM, text);
+        WebElement element = waitForElementVisibleWithBy((xpath));
+        assertEqualCondition(null,element.isEnabled(),false, FailureHandling.STOP_ON_FAILURE,"");
+    }
 
     private String url = "https://demo.nopcommerce.com/";
 }

@@ -52,6 +52,7 @@ public class BasePage extends WebUI {
 
     /**
      * select checkbox or radio button
+     *
      * @param option
      */
     protected void selectCheckBoxRadio(String option) {
@@ -71,6 +72,7 @@ public class BasePage extends WebUI {
 
     /**
      * Select date when element has type select/option
+     *
      * @param nameDate
      * @param text
      */
@@ -81,6 +83,7 @@ public class BasePage extends WebUI {
 
     /**
      * Verify error message
+     *
      * @param xpathError
      * @param title
      * @param mess
@@ -92,15 +95,15 @@ public class BasePage extends WebUI {
         } else {
             xpath = getByXpathDynamic(xpathError, title, mess);
         }
-        WebElement element = waitForElementVisibleWithBy(xpath);
-        if(element !=null)
-        {
-            assertTrueCondition(null, element.isDisplayed(), FailureHandling.STOP_ON_FAILURE, "Verify error message display");
+        WebElement element = waitForElementVisible(getWebElement(xpath));
+        if (element != null) {
+            assertEqualCondition(null, element.isDisplayed(), true, FailureHandling.STOP_ON_FAILURE, "Verify error message display");
         }
     }
 
     /**
      * Verify email valid
+     *
      * @param email
      * @return
      */

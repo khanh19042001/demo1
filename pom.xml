@@ -15,15 +15,16 @@
         <maven-compiler-plugin.version>3.10.1</maven-compiler-plugin.version>
         <selenium.version>4.8.3</selenium.version>
         <testng.version>7.4.0</testng.version>
-        <webdrivermanager.version>5.5.0</webdrivermanager.version>
-        <surefire.plugin.version>3.0.0-M5</surefire.plugin.version>
+        <webdrivermanager.version>5.5.3</webdrivermanager.version>
         <aspectjweaver.version>1.9.9.1</aspectjweaver.version>
         <ashot.version>1.5.4</ashot.version>
         <log4j.version>2.18.0</log4j.version>
         <allure-testng.version>2.18.1</allure-testng.version>
         <allure-maven.version>2.10.0</allure-maven.version>
         <allure-environment-writer.version>1.0.0</allure-environment-writer.version>
-        <allure.cmd.download.url>https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline</allure.cmd.download.url>
+        <allure.cmd.download.url>
+            https://repo.maven.apache.org/maven2/io/qameta/allure/allure-commandline
+        </allure.cmd.download.url>
         <extentreports.version>5.0.9</extentreports.version>
         <apache-poi.version>5.2.2</apache-poi.version>
         <commons-io.version>2.11.0</commons-io.version>
@@ -35,15 +36,13 @@
         <google.zxing.version>3.5.0</google.zxing.version>
         <lombok.version>1.18.24</lombok.version>
         <google.guava.version>31.1-jre</google.guava.version>
-        <maven.compiler.source>1.8</maven.compiler.source>
         <javax.mail.version>1.6.2</javax.mail.version>
         <zip.version>1.15</zip.version>
         <jackson.version>2.13.3</jackson.version>
-        <jsoup.version>1.15.3</jsoup.version>
+        <jsoup.version>1.15.2</jsoup.version>
         <default.language>vi</default.language>
         <default.executionType>local</default.executionType>
         <default.remoteIP>local</default.remoteIP>
-        <maven.compiler.target>1.8</maven.compiler.target>
         <default.headless>false</default.headless>
         <default.maintainData>false</default.maintainData>
         <default.miEnv>local_main</default.miEnv>
@@ -389,7 +388,20 @@
             <artifactId>jfreechart</artifactId>
             <version>1.5.4</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-simple -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>2.0.9</version>
+            <scope>test</scope>
+        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-api -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.9</version>
+        </dependency>
 
     </dependencies>
 
